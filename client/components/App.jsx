@@ -13,7 +13,7 @@ const App = () => {
         <div className='container'>
           <div className='content'>
             <Route exact path='/' component={Home} />
-            <Route path='/createcard' component={CreateCard} />
+            <Route path='/create' component={CreateCard} />
           </div>
         </div>
       </div>

@@ -1,4 +1,4 @@
-.card-container{
+.ccontainer{
     cursor: pointer;
     height: 400px;
     width: 400px;
@@ -22,7 +22,7 @@
     transition: all 0.4s ease-in-out;
 }
 
-.card.front{
+.card .front{
     height: 400px;
     width: 400ps;
     backface-visibility: hidden;
@@ -32,7 +32,7 @@
     background-color: rgb(255, 251, 251,1 )
 }
 
-.card.back{
+.card .back{
     height: 400px;
     width: 400px;
     text-align: center;
@@ -40,6 +40,12 @@
 }
 
 .questions{
+    color: #333333;
+    font-size: 2.3em;
+    padding-top: 30%;
+}
+
+.answers{
     color: #333333;
     font-size: 2.3em;
     padding-top: 40%;
