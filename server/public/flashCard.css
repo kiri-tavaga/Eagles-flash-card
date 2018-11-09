@@ -1,7 +1,20 @@
+body{
+    padding: 2em;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 6%;
+}
+
+h1{
+    padding-left: 30px;
+    color: white;
+    font-size: 3em;
+}
 .ccontainer{
     cursor: pointer;
     height: 400px;
-    width: 400px;
+    width: 600px;
     perspective: 800px;
     position: relative;
     margin: auto;
@@ -10,21 +23,22 @@
 
 .card {
     height: 400px;
-    width: 400px;
+    width: 600px;
     position: absolute;
-    border: 1px solid #330000;
+    border: 2px solid #330000;
+    border-radius: 5px;
     transform-style: preserve-3d;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.6s ease-in-out;
 }
 
 .card:hover {
     transform: rotateY(180deg);
-    transition: all 0.4s ease-in-out;
+    transition: all 0.6s ease-in-out;
 }
 
 .card .front{
     height: 400px;
-    width: 400ps;
+    width: 600px;
     backface-visibility: hidden;
     position: absolute;
     overflow: hidden;
@@ -34,21 +48,24 @@
 
 .card .back{
     height: 400px;
-    width: 400px;
+    width: 600px;
     text-align: center;
-    transform: rotateY(180deg) 
+    transform: rotateY(180deg);
+
 }
 
 .questions{
     color: #333333;
     font-size: 2.3em;
-    padding-top: 30%;
+    padding-top: 20%;
+    text-align: center;
 }
 
 .answers{
     color: #333333;
     font-size: 2.3em;
-    padding-top: 40%;
+    padding-top: 30%;
+    text-align: center;
 }
 
 /*DrawButton*/

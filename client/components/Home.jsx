@@ -54,7 +54,7 @@ export default class Home extends React.Component {
 
   render () {
     return (
-      <div>
+      <div className='temp'>
         <div className='ccontainer'>
           <div className='cardRow'>
             <div className='card' onMouseEnter={this.flipHandler} onMouseLeave={this.flipBackHandler}>
