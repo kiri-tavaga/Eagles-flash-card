@@ -6,5 +6,5 @@
 {"questions": "Who has a computer programming language named after her/him?", "answers": "Ada Lovelace"},
 {"questions": "Who deciphered the German's code in World War II?", "answers": "Alan Turing"},
 {"questions": "Which library can we use to make snake case, camel case, kebab case? ", "answers": "Lodash"},
-{"questions": "This ES6 syntax is not compatible with Internet Explorer", "answers": "Array.from and Arary.fill"}]
+{"questions": "This ES6 syntax is not compatible with Internet Explorer 11 and older", "answers": "Array.from and Array.fill"}]
 }

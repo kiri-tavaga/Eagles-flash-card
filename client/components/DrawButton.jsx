@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../server/public/flashCard.css'
+// import '../../server/public/flashCard.css'
 
 export default class DrawButton extends React.Component {
   constructor (props) {
