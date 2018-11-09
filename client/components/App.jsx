@@ -9,7 +9,7 @@ const App = () => {
     <Router>
       <div className='app'>
         <h1>Flash Card</h1>
-
+        <br/>
         <div className='container'>
           <div className='content'>
             <Route exact path='/' component={Home} />
